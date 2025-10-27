@@ -1,0 +1,655 @@
+{% comment %}
+NOTA: Este é o conteúdo da template home.html corrigido.
+Copie e cole em: templates/core/home.html
+{% endcomment %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Fotografias</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .carousel-item img,
+        .carousel-item video {
+            height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .foto-info {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .search-container {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 0;
+            color: white;
+        }
+
+        .city-badge {
+            background: #28a745;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        .carousel-indicators button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .loading-spinner {
+            display: none;
+        }
+
+        .management-section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #e9ecef;
+        }
+
+        .section-title {
+            color: #495057;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        .btn-delete {
+            background: #dc3545;
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            color: white;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+            z-index: 10;
+        }
+
+        .btn-delete:hover {
+            opacity: 1;
+        }
+
+        .carousel-item {
+            position: relative;
+        }
+
+        .file-upload-wrapper {
+            position: relative;
+        }
+
+        .custom-file-upload {
+            cursor: pointer;
+        }
+
+        #file-preview .card {
+            border: 2px dashed #667eea;
+            background: #f8f9ff;
+        }
+
+        #image-preview {
+            object-fit: contain;
+        }
+
+        .cidade-info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #007bff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            display: none;
+        }
+
+        .cidade-info-box.show {
+            display: block;
+        }
+
+        .btn-action-cidade {
+            margin-top: 10px;
+        }
+
+        .thumbnail-nav {
+            max-width: 100px;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+            border-radius: 4px;
+            border: 2px solid transparent;
+        }
+
+        .thumbnail-nav:hover,
+        .thumbnail-nav.active {
+            opacity: 1;
+            border-color: #667eea;
+        }
+
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            color: #f8f9ff;
+            /* ou #000 para preto puro */
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
+        }
+
+        .copyright p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="search-container">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h1 class="text-center mb-4">
+                        <i class="fas fa-camera"></i> Fotografias das Viagens da Érica
+                    </h1>
+                    <!-- Formulário de Busca -->
+                    <form method="post" id="searchForm">
+                        {% csrf_token %}
+                        <input type="hidden" name="buscar_fotos" value="1">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="mb-3">
+                                    <input type="text" name="cidade" id="cidade-busca"
+                                        class="form-control form-control-lg" placeholder="Digite o nome da cidade..."
+                                        autocomplete="off" list="cidades-datalist">
+
+                                    <datalist id="cidades-datalist">
+                                        {% for cidade in cidades %}
+                                        <option value="{{ cidade.nome }}" data-id="{{ cidade.id }}"
+                                            data-estado="{{ cidade.estado }}" data-pais="{{ cidade.pais }}">
+                                            {{ cidade.nome }} - {{ cidade.estado }}, {{ cidade.pais }}
+                                        </option>
+                                        {% endfor %}
+                                    </datalist>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-success btn-lg w-100">
+                                    <i class="fas fa-search"></i> Buscar
+                                </button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                    
+                    <!-- Estatísticas rápidas 
+                    <div class="text-center mt-3">
+                        <small class="text-light">
+                            <i class="fas fa-city"></i> {{ total_cidades }} cidade{{ total_cidades|pluralize:",s" }}
+                            cadastrada{{ total_cidades|pluralize:",s" }}
+                        </small>
+                    </div>
+                    -->
+                    <footer class="copyright">
+                        <p>© CadaSilva Informática Ltda - Aplicativo para Fotografias </p>
+                    </footer>
+                    <div class="loading-spinner text-center mt-3">
+                        <div class="spinner-border text-light" role="status">
+                            <span class="visually-hidden">Carregando...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <!-- Mensagens do Django -->
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags|default:'info' }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        {% if cidade_selecionada %}
+        <div class="text-center mb-4">
+            <span class="city-badge">
+                <i class="fas fa-map-marker-alt"></i> {{ cidade_selecionada.nome }}
+            </span>
+            <p class="mt-2 text-muted">{{ total_fotos }} fotografia{{ total_fotos|pluralize:",s" }} encontrada{{ total_fotos|pluralize:",s" }}</p>
+        </div>
+        {% endif %}
+
+        {% if fotografias %}
+        <!-- Carrossel de Fotografias -->
+        <div id="carrosselFotos" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                {% for foto in fotografias %}
+                <button type="button" data-bs-target="#carrosselFotos" data-bs-slide-to="{{ forloop.counter0 }}" {% if forloop.first %}class="active" {% endif %}></button>
+                {% endfor %}
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+                {% for foto in fotografias %}
+                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <!-- Se for imagem -->
+                            {% if foto.is_image %}
+                            <img src="{{ foto.arquivo.url }}" class="d-block w-100" alt="{{ foto.titulo }}"
+                                loading="lazy">
+
+                            <!-- Se for vídeo -->
+                            {% elif foto.is_video %}
+                            <video width="100%" height="500" style="border-radius: 8px; object-fit: cover;" controls>
+                                <source src="{{ foto.arquivo.url }}" type="video/mp4">
+                                Seu navegador não suporta reprodução de vídeo.
+                            </video>
+                            {% endif %}
+
+                            <!-- Botão de deletar foto -->
+                            <form method="post" action="{% url 'core:core_deletar_media_confirm' foto.id %}"
+                                style="display: inline;"
+                                onsubmit="return confirm('Tem certeza que deseja excluir esta foto?')">
+                                {% csrf_token %}
+                                <button type="submit" class="btn-delete" title="Excluir foto">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </form>
+
+                            <div class="foto-info">
+                                <h5 class="mb-2">{{ foto.titulo }}</h5>
+                                {% if foto.descricao %}
+                                <p class="mb-1">{{ foto.descricao }}</p>
+                                {% endif %}
+                                <small>
+                                    <i class="fas fa-calendar"></i>
+                                    {{ foto.data_upload|date:"d/m/Y H:i" }}
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Controles de navegação -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrosselFotos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrosselFotos" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+
+        <!-- Thumbnails para navegação rápida -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <h6 class="text-center mb-3">Navegação rápida:</h6>
+                <div class="d-flex flex-wrap justify-content-center gap-2">
+                    {% for foto in fotografias %}
+                    <div class="thumbnail-nav" data-bs-target="#carrosselFotos"
+                        data-bs-slide-to="{{ forloop.counter0 }}" title="{{ foto.titulo }}">
+                        {% if foto.is_image %}
+                        <img src="{{ foto.arquivo.url }}" alt="{{ foto.titulo }}" class="thumbnail-nav"
+                            style="width: 80px; height: 80px;">
+                        {% else %}
+                        <div
+                            style="width: 80px; height: 80px; background: #333; display: flex; align-items: center; justify-content: center; border-radius: 4px; color: white;">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        {% elif request.method == 'POST' and 'buscar_fotos' in request.POST %}
+        <div class="text-center">
+            <i class="fas fa-camera-retro fa-3x mb-3 text-muted"></i>
+            <h4>Nenhuma fotografia encontrada</h4>
+            <p class="text-muted">Não foram encontradas fotos para a cidade "{{ request.POST.cidade }}".</p>
+            <small class="text-muted">Verifique se o nome está correto ou tente outra cidade.</small>
+        </div>
+
+        {% endif %}
+
+        <!-- Seção de Gerenciamento -->
+        <div class="management-section">
+            <div class="row">
+                <!-- Adicionar Nova Cidade -->
+                <div class="col-md-6">
+                    <h5 class="section-title">
+                        <i class="fas fa-plus-circle"></i> Adicionar Nova Cidade
+                    </h5>
+
+                    <form method="post" action="{% url 'core:cadastrar_cidade' %}" id="cidadeForm">
+                        {% csrf_token %}
+
+                        <div class="mb-3">
+                            <label for="id_nome" class="form-label">Nome da Cidade</label>
+                            <input type="text" name="nome" class="form-control" id="id_nome"
+                                placeholder="Nome da cidade" required>
+                            <small id="cidade-existe" class="text-warning" style="display: none;">
+                                <i class="fas fa-info-circle"></i> Esta cidade já está cadastrada. Os campos foram
+                                preenchidos com os dados existentes.
+                            </small>
+                            <div id="cidade-info-box" class="cidade-info-box">
+                                <small class="text-info">
+                                    <i class="fas fa-database"></i> Dados já existentes carregados.
+                                    <button type="button" class="btn btn-sm btn-outline-danger ms-2"
+                                        id="btn-deletar-cidade">
+                                        <i class="fas fa-trash"></i> Deletar
+                                    </button>
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="id_estado" class="form-label">Estado (sigla)</label>
+                                <input type="text" name="estado" class="form-control" id="id_estado"
+                                    placeholder="Ex: RJ, SP, MG" maxlength="10" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="id_pais" class="form-label">País</label>
+                                <input type="text" name="pais" class="form-control" id="id_pais" value="Brasil"
+                                    required>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" id="btn-submit-cidade">
+                            <i class="fas fa-plus"></i> Adicionar Cidade
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Adicionar Nova Foto -->
+                <div class="col-md-6">
+                    <h5 class="section-title">
+                        <i class="fas fa-camera-retro"></i> Adicionar Nova Foto
+                    </h5>
+
+                    <form method="post" enctype="multipart/form-data" id="fotoForm">
+                        {% csrf_token %}
+                        <input type="hidden" name="cadastrar_media" value="1">
+
+                        <div class="mb-3">
+                            <label for="id_cidade" class="form-label">Cidade</label>
+                            <select name="cidade" id="id_cidade" class="form-select" required>
+                                <option value="">Selecione uma cidade</option>
+                                {% for cidade in cidades %}
+                                <option value="{{ cidade.id }}">{{ cidade.nome }} - {{ cidade.estado }}</option>
+                                {% endfor %}
+                            </select>
+                            {% if not cidades %}
+                            <small class="text-muted">Adicione uma cidade primeiro</small>
+                            {% endif %}
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="id_titulo" class="form-label">Título</label>
+                            <input type="text" name="titulo" id="id_titulo" class="form-control"
+                                placeholder="Título da foto/vídeo" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="id_descricao" class="form-label">Descrição</label>
+                            <textarea name="descricao" id="id_descricao" class="form-control" rows="3"
+                                placeholder="Descrição (opcional)"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="id_arquivo" class="form-label">
+                                <i class="fas fa-image"></i> Arquivo (Foto ou Vídeo)
+                            </label>
+                            <input type="file" name="arquivo" id="id_arquivo" class="form-control"
+                                accept="image/*,video/*" required onchange="previewFile(this)">
+
+                            <div id="file-info" class="mt-2" style="display: none;">
+                                <small class="text-success">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span id="file-name-display"></span>
+                                </small>
+                            </div>
+
+                            <small class="text-muted d-block mt-1">
+                                <i class="fas fa-info-circle"></i> Máximo 10MB - JPG, PNG, GIF, WebP, MP4, AVI, MOV
+                            </small>
+                        </div>
+
+                        <button type="submit" class="btn btn-success" {% if not cidades %}disabled{% endif %}>
+                            <i class="fas fa-upload"></i> Adicionar Foto
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Link para gerenciar cidades -->
+        <div class="text-center mt-4">
+            <a href="{% url 'core:listar_medias_cidade' %}" class="btn btn-outline-primary">
+                <i class="fas fa-list"></i> Gerenciar Todas as Cidades
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Dados das cidades disponíveis
+        // noinspection JSAnnotator
+        
+
+
+        const cidadesData = {};
+        data.forEach(cidade => {
+            cidadesData[cidade.nome.toLowerCase()] = {
+                id: cidade.id,
+                nome: cidade.nome,
+                estado: cidade.estado,
+                pais: cidade.pais
+            };
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('searchForm');
+            const spinner = document.querySelector('.loading-spinner');
+            const cidadeInput = document.getElementById('cidade-busca');
+
+            // Auto-foco no campo de busca
+            if (cidadeInput) {
+                cidadeInput.focus();
+            }
+
+            // Evento: ao selecionar cidade da datalist, buscar automaticamente
+            cidadeInput.addEventListener('change', function () {
+                if (this.value.trim()) {
+                    this.form.submit();
+                }
+            });
+
+            // Mostra loading ao submeter formulário
+            form.addEventListener('submit', function () {
+                spinner.style.display = 'block';
+            });
+
+            // Limpar campo ao focar (exceto se tiver algo selecionado)
+            cidadeInput.addEventListener('focus', function () {
+                if (this.value && this.value.trim()) {
+                    // Se já tem valor, não limpa
+                    return;
+                }
+            });
+
+            // Adicionar cidade via AJAX
+            const cidadeForm = document.getElementById('cidadeForm');
+            if (cidadeForm) {
+                cidadeForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    const formData = new FormData(this);
+                    const cidadeNome = document.getElementById('id_nome').value.toLowerCase();
+                    const cidadeExiste = cidadesData[cidadeNome];
+
+                    // Se cidade existe, permite atualizar ou deletar
+                    if (cidadeExiste) {
+                        if (!confirm(`A cidade "${document.getElementById('id_nome').value}" já existe. Deseja atualizar seus dados?`)) {
+                            return;
+                        }
+                    }
+
+                    fetch(this.action, {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'X-Requested-With': 'XMLHttpRequest'
+                        }
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data.success) {
+                                // Adiciona a nova cidade ao select de fotos
+                                const cidadeSelect = document.querySelector('select[name="cidade"]');
+                                const option = cidadeSelect.querySelector(`option[value="${data.cidade.id}"]`);
+
+                                if (!option) {
+                                    const newOption = document.createElement('option');
+                                    newOption.value = data.cidade.id;
+                                    newOption.textContent = `${data.cidade.nome} - ${data.cidade.estado}`;
+                                    cidadeSelect.appendChild(newOption);
+                                }
+
+                                cidadeSelect.value = data.cidade.id;
+
+                                // Adiciona ao datalist
+                                const datalist = document.getElementById('cidades-datalist');
+                                const existingOption = Array.from(datalist.options).find(opt => opt.value === data.cidade.nome);
+
+                                if (!existingOption) {
+                                    const newOption = document.createElement('option');
+                                    newOption.value = data.cidade.nome;
+                                    newOption.textContent = `${data.cidade.nome} - ${data.cidade.estado}, ${data.cidade.pais}`;
+                                    datalist.appendChild(newOption);
+                                }
+
+                                // Limpa o formulário
+                                cidadeForm.reset();
+                                document.querySelector('input[name="pais"]').value = 'Brasil';
+                                document.getElementById('cidade-info-box').classList.remove('show');
+                                document.getElementById('cidade-existe').style.display = 'none';
+
+                                // Mostra mensagem de sucesso
+                                showAlert('success', data.message);
+                            } else {
+                                showAlert('danger', 'Erro ao adicionar cidade: ' + JSON.stringify(data.errors));
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Erro:', error);
+                            showAlert('danger', 'Erro na comunicação com o servidor.');
+                        });
+                });
+
+                // Verificar se cidade já existe enquanto digita
+                document.getElementById('id_nome').addEventListener('blur', function () {
+                    const cidadeNome = this.value.toLowerCase().trim();
+                    const cidadeExiste = cidadesData[cidadeNome];
+                    const infoBox = document.getElementById('cidade-info-box');
+                    const existeLabel = document.getElementById('cidade-existe');
+
+                    if (cidadeExiste && this.value.trim()) {
+                        document.getElementById('id_estado').value = cidadeExiste.estado;
+                        document.getElementById('id_pais').value = cidadeExiste.pais;
+                        infoBox.classList.add('show');
+                        existeLabel.style.display = 'block';
+
+                        // Botão deletar
+                        document.getElementById('btn-deletar-cidade').onclick = function () {
+                            if (confirm(`Deletar a cidade "${cidadeExiste.nome}"?`)) {
+                                // Aqui você pode adicionar uma chamada para deletar via AJAX
+                                showAlert('info', 'Função de deletar ainda não implementada');
+                            }
+                        };
+                    } else {
+                        infoBox.classList.remove('show');
+                        existeLabel.style.display = 'none';
+                    }
+                });
+            }
+
+            function previewFile(input) {
+                const fileInfo = document.getElementById('file-info');
+                const fileNameDisplay = document.getElementById('file-name-display');
+
+                if (input.files && input.files[0]) {
+                    fileNameDisplay.textContent = input.files[0].name;
+                    fileInfo.style.display = 'block';
+                } else {
+                    fileInfo.style.display = 'none';
+                }
+            }
+
+            function showAlert(type, message) {
+                const alertDiv = document.createElement('div');
+                alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
+                alertDiv.innerHTML = `
+                    ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                `;
+
+                const container = document.querySelector('.container');
+                container.insertBefore(alertDiv, container.firstChild);
+
+                setTimeout(() => {
+                    if (alertDiv.parentNode) {
+                        alertDiv.remove();
+                    }
+                }, 5000);
+            }
+
+            // Controle de teclado para o carrossel
+            document.addEventListener('keydown', function (e) {
+                const carousel = document.getElementById('carrosselFotos');
+                if (!carousel) return;
+
+                if (e.key === 'ArrowLeft') {
+                    bootstrap.Carousel.getInstance(carousel).prev();
+                } else if (e.key === 'ArrowRight') {
+                    bootstrap.Carousel.getInstance(carousel).next();
+                }
+            });
+
+            // Navegação via thumbnail
+            document.querySelectorAll('.thumbnail-nav').forEach((thumb, index) => {
+                thumb.addEventListener('click', function () {
+                    document.querySelectorAll('.thumbnail-nav').forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

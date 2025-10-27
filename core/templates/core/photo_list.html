@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Lista de Viagens{% endblock %}
+
+{% block content %}
+  <h2 class="mt-4">Lista de Viagens</h2>
+  <a href="{% url 'photo_upload' %}" class="btn btn-primary mb-3">Adicionar Nova Viagem</a>
+  <div class="row">
+    {% for viagem in photos %}
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="{{ viagem.foto.url }}" class="card-img-top" alt="{{ viagem.titulo }}" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">{{ viagem.titulo }}</h5>
+            <p class="card-text">{{ viagem.descricao|truncatewords:20 }}</p>
+            <p class="card-text"><small class="text-muted">Data: {{ viagem.data_viagem }}</small></p>
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <p>Nenhuma viagem cadastrada.</p>
+    {% endfor %}
+  </div>
+{% endblock %}
