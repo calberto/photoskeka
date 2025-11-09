@@ -1,14 +1,18 @@
 # photos/settings.py
 import os
 from pathlib import Path
+import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'sua-secret-key'
+# SECRET_KEY = 'sua-secret-key'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'sua-chave-atual')
 
-DEBUG = True
+# DEBUG = True
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['photosKeka.onrender.com', 'localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -54,14 +58,9 @@ WSGI_APPLICATION = 'photosKeka.wsgi.application'
 
 # ⚡ Configuração MySQL
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'photosKeka',
-        'USER': 'carlos',
-        'PASSWORD': 'calberto',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
+    'default': dj_database_url.config(
+        default='postgres://photoskeka_carlos:calberto@localhost:5432/photoskeka_db'
+    )
 }
 
 # Arquivos de mídia (upload de fotos)
