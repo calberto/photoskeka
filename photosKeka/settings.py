@@ -11,10 +11,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-dev-key')
 
-ALLOWED_HOSTS = [
-    'photoskeka-1.onrender.com',
-    'localhost',
-    '127.0.0.1',]
+ALLOWED_HOSTS = ['photoskeka-1.onrender.com', '.onrender.com', 'localhost', '127.0.0.1']
+
+
 
 # Ou leia de variável de ambiente
 if os.getenv('ALLOWED_HOSTS'):
@@ -68,7 +67,7 @@ WSGI_APPLICATION = 'photosKeka.wsgi.application'
 # configuração do PostgreSQL
 DATABASES = {
     'default': dj_database_url.config(
-        default=os.environ.get('DATABASE_URL'),
+        default=os.environ.get('DATABASE_URL', '').replace('postgres://', 'postgresql://'),
         conn_max_age=600,
         conn_health_checks=True,
     )
