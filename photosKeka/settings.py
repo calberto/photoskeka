@@ -2,14 +2,14 @@
 import os
 from pathlib import Path
 import dj_database_url
+from dotenv import load_dotenv
+
+load_dotenv()  # Carrega .env
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# SECRET_KEY = 'sua-secret-key'
-SECRET_KEY = os.environ.get('SECRET_KEY', 'sua-chave-atual')
-
-DEBUG = True
-# DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+DEBUG = os.getenv('DEBUG', 'False') == 'True'
+SECRET_KEY = os.getenv('SECRET_KEY', 'fallback-key-for-dev')
 
 ALLOWED_HOSTS = []
 # ALLOWED_HOSTS = ['photosKeka.onrender.com', 'localhost', '127.0.0.1']
@@ -56,26 +56,23 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'photosKeka.wsgi.application'
 
-# ⚡ Configuração MySQL
-
-DATABASES = {
-    'default': dj_database_url.config(
-        default='postgres://photoskeka_carlos:calberto@localhost:5432/photoskeka_db'
-    )
-    
-}
-"""
+# configuração do PostgreSQL
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'photosKeka',
-        'USER': 'carlos',
-        'PASSWORD': 'calberto',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.getenv('PGDATABASE', os.getenv('POSTGRES_DB')),
+        'USER': os.getenv('PGUSER', os.getenv('POSTGRES_USER')),
+        'PASSWORD': os.getenv('PGPASSWORD', os.getenv('POSTGRES_PASSWORD')),
+        'HOST': os.getenv('PGHOST', 'localhost'),
+        'PORT': os.getenv('PGPORT', '5432'),
     }
 }
-"""
+
+# Fallback local (opcional)
+if os.getenv('DATABASE_URL'):
+    import dj_database_url
+    DATABASES['default'] = dj_database_url.config(default=os.getenv('DATABASE_URL'))
+
 # Arquivos de mídia (upload de fotos)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
