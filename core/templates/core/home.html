@@ -255,13 +255,15 @@ Copie e cole em: templates/core/home.html
                         <div class="col-md-8">
                             <!-- Se for imagem -->
                             {% if foto.is_image %}
-                            <img src="{{ foto.arquivo.url }}" class="d-block w-100" alt="{{ foto.titulo }}"
+                            <img src="{{ foto.arquivo }}" class="d-block w-100" alt="{{ foto.titulo }}">
+
+
                                 loading="lazy">
 
                             <!-- Se for vídeo -->
                             {% elif foto.is_video %}
                             <video width="100%" height="500" style="border-radius: 8px; object-fit: cover;" controls>
-                                <source src="{{ foto.arquivo.url }}" type="video/mp4">
+                                <source src="{{ foto.arquivo }}" type="video/mp4">
                                 Seu navegador não suporta reprodução de vídeo.
                             </video>
                             {% endif %}
@@ -312,7 +314,7 @@ Copie e cole em: templates/core/home.html
                     <div class="thumbnail-nav" data-bs-target="#carrosselFotos"
                         data-bs-slide-to="{{ forloop.counter0 }}" title="{{ foto.titulo }}">
                         {% if foto.is_image %}
-                        <img src="{{ foto.arquivo.url }}" alt="{{ foto.titulo }}" class="thumbnail-nav"
+                        <img src="{{ foto.arquivo }}" alt="{{ foto.titulo }}" class="thumbnail-nav"
                             style="width: 80px; height: 80px;">
                         {% else %}
                         <div
