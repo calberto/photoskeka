@@ -1,0 +1,3096 @@
+[
+{
+  "model": "core.fotografia",
+  "pk": 1,
+  "fields": {
+    "titulo": "Imagens de Amsterdam",
+    "descricao": "16 de junho de 2022, 12∶27∶44",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964559/photoskeka/foto_1.jpg",
+    "cidade": 1,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:37:03.858Z",
+    "data_atualizacao": "2025-11-12T16:22:40.006Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 2,
+  "fields": {
+    "titulo": "Imagens de Amsterdam",
+    "descricao": "16 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964558/photoskeka/foto_2.jpg",
+    "cidade": 1,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:38:07.680Z",
+    "data_atualizacao": "2025-11-12T16:22:38.856Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 3,
+  "fields": {
+    "titulo": "Imagens de Amsterdam",
+    "descricao": "16 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964557/photoskeka/foto_3.jpg",
+    "cidade": 1,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:38:45.727Z",
+    "data_atualizacao": "2025-11-12T16:22:38.000Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 4,
+  "fields": {
+    "titulo": "Imagens de Amsterdam",
+    "descricao": "16 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964556/photoskeka/foto_4.jpg",
+    "cidade": 1,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:39:10.828Z",
+    "data_atualizacao": "2025-11-12T16:22:36.769Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 5,
+  "fields": {
+    "titulo": "Imagens de Amsterdam",
+    "descricao": "16 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964554/photoskeka/foto_5.jpg",
+    "cidade": 1,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:39:44.807Z",
+    "data_atualizacao": "2025-11-12T16:22:35.597Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 6,
+  "fields": {
+    "titulo": "Imagens de Amsterdm",
+    "descricao": "16 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964553/photoskeka/foto_6.jpg",
+    "cidade": 1,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:40:16.727Z",
+    "data_atualizacao": "2025-11-12T16:22:34.223Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 7,
+  "fields": {
+    "titulo": "Imagens de Amsterdam",
+    "descricao": "16 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964552/photoskeka/foto_7.jpg",
+    "cidade": 1,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:42:11.382Z",
+    "data_atualizacao": "2025-11-12T16:22:33.236Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 8,
+  "fields": {
+    "titulo": "Imagens de Amsterdam",
+    "descricao": "16 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964551/photoskeka/foto_8.jpg",
+    "cidade": 1,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:42:42.067Z",
+    "data_atualizacao": "2025-11-12T16:22:32.031Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 9,
+  "fields": {
+    "titulo": "Imagens de Bruxelas",
+    "descricao": "12 de junho de 2022",
+    "arquivo": "media/belgica.mp4",
+    "cidade": 2,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:47:04.249Z",
+    "data_atualizacao": "2025-10-21T23:47:04.249Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 10,
+  "fields": {
+    "titulo": "Imagens de Bruxelas",
+    "descricao": "12 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964549/photoskeka/foto_10.jpg",
+    "cidade": 2,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:48:00.487Z",
+    "data_atualizacao": "2025-11-12T16:22:30.186Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 11,
+  "fields": {
+    "titulo": "Imagens de Bruxelas",
+    "descricao": "12 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964548/photoskeka/foto_11.jpg",
+    "cidade": 2,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:48:28.806Z",
+    "data_atualizacao": "2025-11-12T16:22:28.937Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 12,
+  "fields": {
+    "titulo": "Imagens de Bruxelas",
+    "descricao": "12 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964546/photoskeka/foto_12.jpg",
+    "cidade": 2,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:50:07.295Z",
+    "data_atualizacao": "2025-11-12T16:22:27.676Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 13,
+  "fields": {
+    "titulo": "Imagens de Bruxelas",
+    "descricao": "12 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964545/photoskeka/foto_13.jpg",
+    "cidade": 2,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:50:35.572Z",
+    "data_atualizacao": "2025-11-12T16:22:26.283Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 14,
+  "fields": {
+    "titulo": "Imagens de Bruxelas",
+    "descricao": "12 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964544/photoskeka/foto_14.jpg",
+    "cidade": 2,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:52:56.422Z",
+    "data_atualizacao": "2025-11-12T16:22:25.073Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 15,
+  "fields": {
+    "titulo": "Imagens",
+    "descricao": "12 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964542/photoskeka/foto_15.jpg",
+    "cidade": 2,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:53:22.476Z",
+    "data_atualizacao": "2025-11-12T16:22:23.467Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 16,
+  "fields": {
+    "titulo": "Imagens de Bruxelas",
+    "descricao": "12 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964541/photoskeka/foto_16.jpg",
+    "cidade": 2,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:53:44.104Z",
+    "data_atualizacao": "2025-11-12T16:22:22.545Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 17,
+  "fields": {
+    "titulo": "Imagens de Bruxelas",
+    "descricao": "12 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964540/photoskeka/foto_17.jpg",
+    "cidade": 2,
+    "ativa": true,
+    "data_upload": "2025-10-21T23:54:18.861Z",
+    "data_atualizacao": "2025-11-12T16:22:21.379Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 18,
+  "fields": {
+    "titulo": "Imagens de Bruges",
+    "descricao": "13 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964539/photoskeka/foto_18.mp4",
+    "cidade": 14,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:00:27.925Z",
+    "data_atualizacao": "2025-11-12T16:22:20.125Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 19,
+  "fields": {
+    "titulo": "Imagens de Bruges",
+    "descricao": "13 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964535/photoskeka/foto_19.jpg",
+    "cidade": 14,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:01:16.133Z",
+    "data_atualizacao": "2025-11-12T16:22:17.591Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 20,
+  "fields": {
+    "titulo": "Imagens de Bruges",
+    "descricao": "13 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964534/photoskeka/foto_20.jpg",
+    "cidade": 14,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:01:54.981Z",
+    "data_atualizacao": "2025-11-12T16:22:15.377Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 21,
+  "fields": {
+    "titulo": "Imagens de Bruges",
+    "descricao": "13 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964533/photoskeka/foto_21.jpg",
+    "cidade": 14,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:02:19.998Z",
+    "data_atualizacao": "2025-11-12T16:22:14.021Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 22,
+  "fields": {
+    "titulo": "Imagens de Bruges",
+    "descricao": "13 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964531/photoskeka/foto_22.jpg",
+    "cidade": 14,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:02:48.807Z",
+    "data_atualizacao": "2025-11-12T16:22:12.550Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 23,
+  "fields": {
+    "titulo": "Imagens de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964529/photoskeka/foto_23.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:40:56.453Z",
+    "data_atualizacao": "2025-11-12T16:22:11.088Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 24,
+  "fields": {
+    "titulo": "Imagens de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964528/photoskeka/foto_24.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:41:28.740Z",
+    "data_atualizacao": "2025-11-12T16:22:09.225Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 25,
+  "fields": {
+    "titulo": "Imagens de Estrasburgos",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964527/photoskeka/foto_25.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:42:07.318Z",
+    "data_atualizacao": "2025-11-12T16:22:07.688Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 26,
+  "fields": {
+    "titulo": "Imagens de Estrasburgos",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964525/photoskeka/foto_26.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:42:40.938Z",
+    "data_atualizacao": "2025-11-12T16:22:05.900Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 27,
+  "fields": {
+    "titulo": "Imagens de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964522/photoskeka/foto_27.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:43:25.499Z",
+    "data_atualizacao": "2025-11-12T16:22:04.099Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 28,
+  "fields": {
+    "titulo": "Imagens de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964520/photoskeka/foto_28.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:43:55.350Z",
+    "data_atualizacao": "2025-11-12T16:22:01.554Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 29,
+  "fields": {
+    "titulo": "Imagens de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964519/photoskeka/foto_29.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:45:06.027Z",
+    "data_atualizacao": "2025-11-12T16:22:00.028Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 30,
+  "fields": {
+    "titulo": "Imagens de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964517/photoskeka/foto_30.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:45:33.923Z",
+    "data_atualizacao": "2025-11-12T16:21:58.440Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 31,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964516/photoskeka/foto_31.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:46:19.859Z",
+    "data_atualizacao": "2025-11-12T16:21:57.365Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 32,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964515/photoskeka/foto_32.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:46:55.415Z",
+    "data_atualizacao": "2025-11-12T16:21:56.142Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 33,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964513/photoskeka/foto_33.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:47:28.043Z",
+    "data_atualizacao": "2025-11-12T16:21:54.234Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 34,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964510/photoskeka/foto_34.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:48:10.287Z",
+    "data_atualizacao": "2025-11-12T16:21:51.182Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 35,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964508/photoskeka/foto_35.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:48:45.570Z",
+    "data_atualizacao": "2025-11-12T16:21:49.531Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 36,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964507/photoskeka/foto_36.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:49:17.287Z",
+    "data_atualizacao": "2025-11-12T16:21:47.612Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 37,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964505/photoskeka/foto_37.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:49:53.455Z",
+    "data_atualizacao": "2025-11-12T16:21:45.686Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 38,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964503/photoskeka/foto_38.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:50:22.504Z",
+    "data_atualizacao": "2025-11-12T16:21:44.202Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 39,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964501/photoskeka/foto_39.jpg",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:51:00.152Z",
+    "data_atualizacao": "2025-11-12T16:21:42.576Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 40,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964499/photoskeka/foto_40.mp4",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:51:25.673Z",
+    "data_atualizacao": "2025-11-12T16:21:40.429Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 41,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964495/photoskeka/foto_41.mp4",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:52:07.366Z",
+    "data_atualizacao": "2025-11-12T16:21:36.956Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 42,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964494/photoskeka/foto_42.mp4",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:52:37.680Z",
+    "data_atualizacao": "2025-11-12T16:21:34.982Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 43,
+  "fields": {
+    "titulo": "Imagem de Estrasburgo",
+    "descricao": "22 de Abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964491/photoskeka/foto_43.mp4",
+    "cidade": 3,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:53:05.258Z",
+    "data_atualizacao": "2025-11-12T16:21:32.101Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 44,
+  "fields": {
+    "titulo": "Imagem de Essen",
+    "descricao": "7 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964488/photoskeka/foto_44.jpg",
+    "cidade": 4,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:54:35.268Z",
+    "data_atualizacao": "2025-11-12T16:21:28.717Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 45,
+  "fields": {
+    "titulo": "Imagem de Essen",
+    "descricao": "7 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964486/photoskeka/foto_45.jpg",
+    "cidade": 4,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:55:28.137Z",
+    "data_atualizacao": "2025-11-12T16:21:27.713Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 46,
+  "fields": {
+    "titulo": "Imagem de Essen",
+    "descricao": "7 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964485/photoskeka/foto_46.jpg",
+    "cidade": 4,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:55:45.487Z",
+    "data_atualizacao": "2025-11-12T16:21:26.122Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 47,
+  "fields": {
+    "titulo": "Imagem de Essen",
+    "descricao": "7 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964484/photoskeka/foto_47.jpg",
+    "cidade": 4,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:56:11.925Z",
+    "data_atualizacao": "2025-11-12T16:21:25.162Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 48,
+  "fields": {
+    "titulo": "Imagem de Essen",
+    "descricao": "7 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964483/photoskeka/foto_48.jpg",
+    "cidade": 4,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:56:31.888Z",
+    "data_atualizacao": "2025-11-12T16:21:23.806Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 49,
+  "fields": {
+    "titulo": "Imagem de Essen",
+    "descricao": "7 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964480/photoskeka/foto_49.mp4",
+    "cidade": 4,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:56:54.938Z",
+    "data_atualizacao": "2025-11-12T16:21:22.457Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 50,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964477/photoskeka/foto_50.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:59:21.229Z",
+    "data_atualizacao": "2025-11-12T16:21:18.002Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 51,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964476/photoskeka/foto_51.mp4",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T00:59:54.508Z",
+    "data_atualizacao": "2025-11-12T16:21:16.982Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 52,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964475/photoskeka/foto_52.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:00:11.601Z",
+    "data_atualizacao": "2025-11-12T16:21:15.783Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 53,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964473/photoskeka/foto_53.mp4",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:00:34.354Z",
+    "data_atualizacao": "2025-11-12T16:21:14.467Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 54,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964471/photoskeka/foto_54.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:00:52.930Z",
+    "data_atualizacao": "2025-11-12T16:21:12.277Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 55,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964470/photoskeka/foto_55.mp4",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:01:14.909Z",
+    "data_atualizacao": "2025-11-12T16:21:11.229Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 56,
+  "fields": {
+    "titulo": "Imagemde Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964468/photoskeka/foto_56.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:01:46.653Z",
+    "data_atualizacao": "2025-11-12T16:21:08.927Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 57,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964466/photoskeka/foto_57.mp4",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:02:16.315Z",
+    "data_atualizacao": "2025-11-12T16:21:07.668Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 58,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964463/photoskeka/foto_58.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:02:41.155Z",
+    "data_atualizacao": "2025-11-12T16:21:04.439Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 59,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964462/photoskeka/foto_59.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:03:02.245Z",
+    "data_atualizacao": "2025-11-12T16:21:03.503Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 60,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964461/photoskeka/foto_60.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:03:21.681Z",
+    "data_atualizacao": "2025-11-12T16:21:02.333Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 61,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964460/photoskeka/foto_61.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:03:41.740Z",
+    "data_atualizacao": "2025-11-12T16:21:01.274Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 62,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964459/photoskeka/foto_62.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:04:08.952Z",
+    "data_atualizacao": "2025-11-12T16:21:00.123Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 63,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964456/photoskeka/foto_63.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:04:42.453Z",
+    "data_atualizacao": "2025-11-12T16:20:58.172Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 64,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964455/photoskeka/foto_64.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:05:05.586Z",
+    "data_atualizacao": "2025-11-12T16:20:55.912Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 65,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964453/photoskeka/foto_65.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:05:27.650Z",
+    "data_atualizacao": "2025-11-12T16:20:54.448Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 66,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964452/photoskeka/foto_66.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:05:49.137Z",
+    "data_atualizacao": "2025-11-12T16:20:53.462Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 67,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964451/photoskeka/foto_67.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:06:12.896Z",
+    "data_atualizacao": "2025-11-12T16:20:52.188Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 68,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964450/photoskeka/foto_68.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:06:44.780Z",
+    "data_atualizacao": "2025-11-12T16:20:51.252Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 69,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964450/photoskeka/foto_69.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:07:03.312Z",
+    "data_atualizacao": "2025-11-12T16:20:50.575Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 70,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964448/photoskeka/foto_70.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:07:21.224Z",
+    "data_atualizacao": "2025-11-12T16:20:49.425Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 71,
+  "fields": {
+    "titulo": "Imagem de Florença",
+    "descricao": "28 de junho de 2022,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964447/photoskeka/foto_71.jpg",
+    "cidade": 5,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:07:43.533Z",
+    "data_atualizacao": "2025-11-12T16:20:48.210Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 72,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964446/photoskeka/foto_72.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:10:35.075Z",
+    "data_atualizacao": "2025-11-12T16:20:47.381Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 73,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964445/photoskeka/foto_73.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:11:00.006Z",
+    "data_atualizacao": "2025-11-12T16:20:46.059Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 74,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964443/photoskeka/foto_74.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:11:18.016Z",
+    "data_atualizacao": "2025-11-12T16:20:44.512Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 75,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964442/photoskeka/foto_75.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:11:38.065Z",
+    "data_atualizacao": "2025-11-12T16:20:43.163Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 76,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964440/photoskeka/foto_76.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:11:57.060Z",
+    "data_atualizacao": "2025-11-12T16:20:41.617Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 77,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964439/photoskeka/foto_77.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:12:30.442Z",
+    "data_atualizacao": "2025-11-12T16:20:39.710Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 78,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964437/photoskeka/foto_78.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:13:49.074Z",
+    "data_atualizacao": "2025-11-12T16:20:38.247Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 79,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964436/photoskeka/foto_79.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:14:18.964Z",
+    "data_atualizacao": "2025-11-12T16:20:36.820Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 80,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964434/photoskeka/foto_80.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:14:39.636Z",
+    "data_atualizacao": "2025-11-12T16:20:34.666Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 81,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964432/photoskeka/foto_81.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:15:12.478Z",
+    "data_atualizacao": "2025-11-12T16:20:33.686Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 82,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964431/photoskeka/foto_82.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:15:37.184Z",
+    "data_atualizacao": "2025-11-12T16:20:32.160Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 83,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964430/photoskeka/foto_83.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:16:01.484Z",
+    "data_atualizacao": "2025-11-12T16:20:31.091Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 84,
+  "fields": {
+    "titulo": "Imagem de hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964429/photoskeka/foto_84.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:16:26.974Z",
+    "data_atualizacao": "2025-11-12T16:20:29.948Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 85,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964428/photoskeka/foto_85.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:16:58.159Z",
+    "data_atualizacao": "2025-11-12T16:20:28.763Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 86,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964426/photoskeka/foto_86.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:17:21.570Z",
+    "data_atualizacao": "2025-11-12T16:20:27.046Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 87,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964425/photoskeka/foto_87.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:17:45.422Z",
+    "data_atualizacao": "2025-11-12T16:20:25.955Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 88,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964424/photoskeka/foto_88.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:18:10.318Z",
+    "data_atualizacao": "2025-11-12T16:20:25.080Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 89,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964423/photoskeka/foto_89.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:18:39.451Z",
+    "data_atualizacao": "2025-11-12T16:20:24.058Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 90,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964420/photoskeka/foto_90.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:19:10.786Z",
+    "data_atualizacao": "2025-11-12T16:20:22.604Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 91,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964419/photoskeka/foto_91.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:20:03.859Z",
+    "data_atualizacao": "2025-11-12T16:20:20.339Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 92,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964418/photoskeka/foto_92.jpg",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:20:53.174Z",
+    "data_atualizacao": "2025-11-12T16:20:19.477Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 93,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964416/photoskeka/foto_93.mp4",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:21:20.656Z",
+    "data_atualizacao": "2025-11-12T16:20:18.171Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 94,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964413/photoskeka/foto_94.mp4",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:21:47.412Z",
+    "data_atualizacao": "2025-11-12T16:20:14.737Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 95,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964412/photoskeka/foto_95.mp4",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:22:10.915Z",
+    "data_atualizacao": "2025-11-12T16:20:12.983Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 96,
+  "fields": {
+    "titulo": "Imagem de Hanover",
+    "descricao": "22 de abril de 2025,",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964410/photoskeka/foto_96.mp4",
+    "cidade": 6,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:22:28.307Z",
+    "data_atualizacao": "2025-11-12T16:20:11.057Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 97,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964407/photoskeka/foto_97.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:34:44.624Z",
+    "data_atualizacao": "2025-11-12T16:20:08.442Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 98,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964406/photoskeka/foto_98.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:35:06.101Z",
+    "data_atualizacao": "2025-11-12T16:20:07.252Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 99,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964404/photoskeka/foto_99.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:35:25.047Z",
+    "data_atualizacao": "2025-11-12T16:20:05.955Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 100,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964403/photoskeka/foto_100.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:35:53.856Z",
+    "data_atualizacao": "2025-11-12T16:20:03.858Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 101,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964402/photoskeka/foto_101.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:36:16.204Z",
+    "data_atualizacao": "2025-11-12T16:20:03.028Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 102,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964400/photoskeka/foto_102.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:36:33.259Z",
+    "data_atualizacao": "2025-11-12T16:20:01.597Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 103,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964399/photoskeka/foto_103.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:37:08.701Z",
+    "data_atualizacao": "2025-11-12T16:20:00.278Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 104,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964398/photoskeka/foto_104.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:37:34.895Z",
+    "data_atualizacao": "2025-11-12T16:19:58.841Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 105,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964396/photoskeka/foto_105.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:38:01.138Z",
+    "data_atualizacao": "2025-11-12T16:19:57.543Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 106,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964395/photoskeka/foto_106.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:38:26.312Z",
+    "data_atualizacao": "2025-11-12T16:19:55.806Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 107,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964393/photoskeka/foto_107.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:38:54.165Z",
+    "data_atualizacao": "2025-11-12T16:19:54.208Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 108,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964390/photoskeka/foto_108.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:39:30.881Z",
+    "data_atualizacao": "2025-11-12T16:19:52.300Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 109,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964388/photoskeka/foto_109.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:39:57.822Z",
+    "data_atualizacao": "2025-11-12T16:19:49.766Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 110,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964386/photoskeka/foto_110.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:40:36.788Z",
+    "data_atualizacao": "2025-11-12T16:19:47.573Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 111,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964385/photoskeka/foto_111.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:41:08.117Z",
+    "data_atualizacao": "2025-11-12T16:19:46.079Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 112,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964383/photoskeka/foto_112.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:41:35.785Z",
+    "data_atualizacao": "2025-11-12T16:19:44.126Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 113,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964381/photoskeka/foto_113.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:42:07.529Z",
+    "data_atualizacao": "2025-11-12T16:19:42.354Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 114,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964380/photoskeka/foto_114.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:42:37.137Z",
+    "data_atualizacao": "2025-11-12T16:19:40.941Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 115,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964377/photoskeka/foto_115.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:43:07.642Z",
+    "data_atualizacao": "2025-11-12T16:19:38.432Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 116,
+  "fields": {
+    "titulo": "Imagem d Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964375/photoskeka/foto_116.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:43:29.708Z",
+    "data_atualizacao": "2025-11-12T16:19:36.200Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 117,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964372/photoskeka/foto_117.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:43:56.267Z",
+    "data_atualizacao": "2025-11-12T16:19:33.325Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 118,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964370/photoskeka/foto_118.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:44:17.041Z",
+    "data_atualizacao": "2025-11-12T16:19:31.274Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 119,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964368/photoskeka/foto_119.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:44:44.185Z",
+    "data_atualizacao": "2025-11-12T16:19:29.752Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 120,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964365/photoskeka/foto_120.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:45:04.337Z",
+    "data_atualizacao": "2025-11-12T16:19:27.152Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 121,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964364/photoskeka/foto_121.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:45:24.825Z",
+    "data_atualizacao": "2025-11-12T16:19:25.549Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 122,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964363/photoskeka/foto_122.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:45:46.269Z",
+    "data_atualizacao": "2025-11-12T16:19:24.422Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 123,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964362/photoskeka/foto_123.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:46:13.066Z",
+    "data_atualizacao": "2025-11-12T16:19:23.608Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 124,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964361/photoskeka/foto_124.jpg",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:46:42.942Z",
+    "data_atualizacao": "2025-11-12T16:19:22.107Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 125,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964359/photoskeka/foto_125.mp4",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:47:15.353Z",
+    "data_atualizacao": "2025-11-12T16:19:20.854Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 126,
+  "fields": {
+    "titulo": "Imagem de Matera",
+    "descricao": "22 de abril de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964357/photoskeka/foto_126.mp4",
+    "cidade": 7,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:47:41.227Z",
+    "data_atualizacao": "2025-11-12T16:19:18.491Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 127,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964353/photoskeka/foto_127.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:49:32.097Z",
+    "data_atualizacao": "2025-11-12T16:19:14.606Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 128,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964353/photoskeka/foto_128.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:50:03.949Z",
+    "data_atualizacao": "2025-11-12T16:19:13.589Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 129,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964352/photoskeka/foto_129.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:50:22.123Z",
+    "data_atualizacao": "2025-11-12T16:19:12.582Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 130,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964350/photoskeka/foto_130.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:50:51.980Z",
+    "data_atualizacao": "2025-11-12T16:19:11.715Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 131,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964349/photoskeka/foto_131.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:51:12.637Z",
+    "data_atualizacao": "2025-11-12T16:19:09.835Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 132,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964348/photoskeka/foto_132.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:51:33.711Z",
+    "data_atualizacao": "2025-11-12T16:19:08.699Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 133,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964346/photoskeka/foto_133.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:52:07.343Z",
+    "data_atualizacao": "2025-11-12T16:19:07.548Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 134,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964345/photoskeka/foto_134.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:52:48.493Z",
+    "data_atualizacao": "2025-11-12T16:19:05.969Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 135,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964343/photoskeka/foto_135.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:53:32.832Z",
+    "data_atualizacao": "2025-11-12T16:19:04.059Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 136,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964342/photoskeka/foto_136.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:53:53.869Z",
+    "data_atualizacao": "2025-11-12T16:19:02.945Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 137,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964341/photoskeka/foto_137.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:54:26.133Z",
+    "data_atualizacao": "2025-11-12T16:19:01.937Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 138,
+  "fields": {
+    "titulo": "Iamgem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964340/photoskeka/foto_138.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:54:50.975Z",
+    "data_atualizacao": "2025-11-12T16:19:00.921Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 139,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964338/photoskeka/foto_139.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:55:15.883Z",
+    "data_atualizacao": "2025-11-12T16:18:59.655Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 140,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964337/photoskeka/foto_140.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:55:40.328Z",
+    "data_atualizacao": "2025-11-12T16:18:58.141Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 141,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964336/photoskeka/foto_141.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:55:58.592Z",
+    "data_atualizacao": "2025-11-12T16:18:57.160Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 142,
+  "fields": {
+    "titulo": "Imagem de Madrid",
+    "descricao": "28 de dezembro de 2024",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964334/photoskeka/foto_142.jpg",
+    "cidade": 8,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:56:21.234Z",
+    "data_atualizacao": "2025-11-12T16:18:55.368Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 143,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964333/photoskeka/foto_143.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:57:37.827Z",
+    "data_atualizacao": "2025-11-12T16:18:54.521Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 144,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964333/photoskeka/foto_144.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:57:58.408Z",
+    "data_atualizacao": "2025-11-12T16:18:53.632Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 145,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964331/photoskeka/foto_145.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:58:18.151Z",
+    "data_atualizacao": "2025-11-12T16:18:52.647Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 146,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964331/photoskeka/foto_146.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:58:33.383Z",
+    "data_atualizacao": "2025-11-12T16:18:51.575Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 147,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964330/photoskeka/foto_147.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:58:54.228Z",
+    "data_atualizacao": "2025-11-12T16:18:50.838Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 148,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964329/photoskeka/foto_148.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:59:11.769Z",
+    "data_atualizacao": "2025-11-12T16:18:49.811Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 149,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964327/photoskeka/foto_149.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T01:59:37.652Z",
+    "data_atualizacao": "2025-11-12T16:18:48.413Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 150,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964326/photoskeka/foto_150.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:00:02.460Z",
+    "data_atualizacao": "2025-11-12T16:18:46.821Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 151,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964324/photoskeka/foto_151.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:00:23.046Z",
+    "data_atualizacao": "2025-11-12T16:18:45.053Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 152,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964320/photoskeka/foto_152.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:00:45.044Z",
+    "data_atualizacao": "2025-11-12T16:18:41.822Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 153,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964317/photoskeka/foto_153.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:01:06.637Z",
+    "data_atualizacao": "2025-11-12T16:18:38.239Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 154,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964311/photoskeka/foto_154.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:01:33.892Z",
+    "data_atualizacao": "2025-11-12T16:18:32.533Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 155,
+  "fields": {
+    "titulo": "magem deMillan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964309/photoskeka/foto_155.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:01:53.743Z",
+    "data_atualizacao": "2025-11-12T16:18:30.578Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 156,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964307/photoskeka/foto_156.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:02:12.831Z",
+    "data_atualizacao": "2025-11-12T16:18:28.527Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 157,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964305/photoskeka/foto_157.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:02:31.684Z",
+    "data_atualizacao": "2025-11-12T16:18:26.116Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 158,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964303/photoskeka/foto_158.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:02:53.824Z",
+    "data_atualizacao": "2025-11-12T16:18:24.174Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 159,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964302/photoskeka/foto_159.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:03:18.995Z",
+    "data_atualizacao": "2025-11-12T16:18:22.741Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 160,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964300/photoskeka/foto_160.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:03:35.837Z",
+    "data_atualizacao": "2025-11-12T16:18:20.795Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 161,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964298/photoskeka/foto_161.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:04:01.504Z",
+    "data_atualizacao": "2025-11-12T16:18:19.001Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 162,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964296/photoskeka/foto_162.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:04:24.816Z",
+    "data_atualizacao": "2025-11-12T16:18:17.376Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 163,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964293/photoskeka/foto_163.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:04:47.045Z",
+    "data_atualizacao": "2025-11-12T16:18:15.689Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 164,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964291/photoskeka/foto_164.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:05:05.067Z",
+    "data_atualizacao": "2025-11-12T16:18:12.773Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 165,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964290/photoskeka/foto_165.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:05:28.228Z",
+    "data_atualizacao": "2025-11-12T16:18:10.898Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 166,
+  "fields": {
+    "titulo": "Imagem de Millan",
+    "descricao": "6 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964288/photoskeka/foto_166.jpg",
+    "cidade": 9,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:05:45.894Z",
+    "data_atualizacao": "2025-11-12T16:18:09.442Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 167,
+  "fields": {
+    "titulo": "Imagem de Nápolw",
+    "descricao": "23 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964287/photoskeka/foto_167.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:08:03.591Z",
+    "data_atualizacao": "2025-11-12T16:18:08.364Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 168,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "23 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964286/photoskeka/foto_168.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:08:33.854Z",
+    "data_atualizacao": "2025-11-12T16:18:06.930Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 169,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "23 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964284/photoskeka/foto_169.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:09:06.554Z",
+    "data_atualizacao": "2025-11-12T16:18:05.470Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 170,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "23 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964283/photoskeka/foto_170.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:09:38.856Z",
+    "data_atualizacao": "2025-11-12T16:18:04.361Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 171,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "23 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964282/photoskeka/foto_171.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:10:03.399Z",
+    "data_atualizacao": "2025-11-12T16:18:02.962Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 172,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "23 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964280/photoskeka/foto_172.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:10:30.685Z",
+    "data_atualizacao": "2025-11-12T16:18:01.666Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 173,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "23 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964280/photoskeka/foto_173.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:11:00.412Z",
+    "data_atualizacao": "2025-11-12T16:18:00.589Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 174,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "23 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964278/photoskeka/foto_174.mp4",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:11:30.662Z",
+    "data_atualizacao": "2025-11-12T16:17:59.722Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 175,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "23 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964277/photoskeka/foto_175.mp4",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:11:52.084Z",
+    "data_atualizacao": "2025-11-12T16:17:58.154Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 176,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "23 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964275/photoskeka/foto_176.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:12:14.143Z",
+    "data_atualizacao": "2025-11-12T16:17:56.272Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 177,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964274/photoskeka/foto_177.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:13:13.108Z",
+    "data_atualizacao": "2025-11-12T16:17:55.138Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 178,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964273/photoskeka/foto_178.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:13:32.243Z",
+    "data_atualizacao": "2025-11-12T16:17:53.645Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 179,
+  "fields": {
+    "titulo": "Imgem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964244/photoskeka/foto_179.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:13:50.470Z",
+    "data_atualizacao": "2025-11-12T16:17:52.389Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 180,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964238/photoskeka/foto_180.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:14:12.116Z",
+    "data_atualizacao": "2025-11-12T16:17:19.189Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 181,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964237/photoskeka/foto_181.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:14:30.497Z",
+    "data_atualizacao": "2025-11-12T16:17:18.070Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 182,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964236/photoskeka/foto_182.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:14:51.040Z",
+    "data_atualizacao": "2025-11-12T16:17:16.857Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 183,
+  "fields": {
+    "titulo": "Imagem de Napole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964235/photoskeka/foto_183.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:15:28.363Z",
+    "data_atualizacao": "2025-11-12T16:17:15.658Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 184,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964233/photoskeka/foto_184.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:15:53.921Z",
+    "data_atualizacao": "2025-11-12T16:17:14.404Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 185,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964231/photoskeka/foto_185.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:16:20.349Z",
+    "data_atualizacao": "2025-11-12T16:17:12.369Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 186,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964230/photoskeka/foto_186.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:16:38.252Z",
+    "data_atualizacao": "2025-11-12T16:17:11.317Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 187,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964229/photoskeka/foto_187.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:17:02.904Z",
+    "data_atualizacao": "2025-11-12T16:17:09.878Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 188,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964227/photoskeka/foto_188.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:17:25.425Z",
+    "data_atualizacao": "2025-11-12T16:17:08.578Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 189,
+  "fields": {
+    "titulo": "Imagem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964226/photoskeka/foto_189.jpg",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:17:47.399Z",
+    "data_atualizacao": "2025-11-12T16:17:06.694Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 190,
+  "fields": {
+    "titulo": "Imafem de Nápole",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964224/photoskeka/foto_190.mp4",
+    "cidade": 10,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:18:23.420Z",
+    "data_atualizacao": "2025-11-12T16:17:05.321Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 191,
+  "fields": {
+    "titulo": "Imagens de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964222/photoskeka/foto_191.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:24:16.891Z",
+    "data_atualizacao": "2025-11-12T16:17:03.171Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 192,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964221/photoskeka/foto_192.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:24:40.284Z",
+    "data_atualizacao": "2025-11-12T16:17:01.999Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 193,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964220/photoskeka/foto_193.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:25:04.453Z",
+    "data_atualizacao": "2025-11-12T16:17:01.132Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 194,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964219/photoskeka/foto_194.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:25:43.230Z",
+    "data_atualizacao": "2025-11-12T16:16:59.909Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 195,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964217/photoskeka/foto_195.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:26:02.369Z",
+    "data_atualizacao": "2025-11-12T16:16:58.563Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 196,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964216/photoskeka/foto_196.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:26:25.252Z",
+    "data_atualizacao": "2025-11-12T16:16:57.332Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 197,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964215/photoskeka/foto_197.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:26:45.831Z",
+    "data_atualizacao": "2025-11-12T16:16:56.125Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 198,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964214/photoskeka/foto_198.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:27:04.971Z",
+    "data_atualizacao": "2025-11-12T16:16:55.178Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 199,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964212/photoskeka/foto_199.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:27:33.189Z",
+    "data_atualizacao": "2025-11-12T16:16:53.634Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 200,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964210/photoskeka/foto_200.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:28:07.264Z",
+    "data_atualizacao": "2025-11-12T16:16:51.620Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 201,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964209/photoskeka/foto_201.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:28:36.270Z",
+    "data_atualizacao": "2025-11-12T16:16:50.343Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 202,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964208/photoskeka/foto_202.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:29:02.447Z",
+    "data_atualizacao": "2025-11-12T16:16:49.390Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 203,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964207/photoskeka/foto_203.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:29:25.853Z",
+    "data_atualizacao": "2025-11-12T16:16:48.142Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 204,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964206/photoskeka/foto_204.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:29:43.950Z",
+    "data_atualizacao": "2025-11-12T16:16:46.839Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 205,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964205/photoskeka/foto_205.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:30:08.025Z",
+    "data_atualizacao": "2025-11-12T16:16:45.822Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 206,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964203/photoskeka/foto_206.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:30:34.194Z",
+    "data_atualizacao": "2025-11-12T16:16:44.593Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 207,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964202/photoskeka/foto_207.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:30:57.456Z",
+    "data_atualizacao": "2025-11-12T16:16:43.111Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 208,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/video/upload/v1762964201/photoskeka/foto_208.mp4",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:31:19.726Z",
+    "data_atualizacao": "2025-11-12T16:16:42.110Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 209,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964199/photoskeka/foto_209.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:31:43.642Z",
+    "data_atualizacao": "2025-11-12T16:16:40.156Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 210,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964197/photoskeka/foto_210.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:32:02.768Z",
+    "data_atualizacao": "2025-11-12T16:16:38.412Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 211,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964196/photoskeka/foto_211.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:32:22.294Z",
+    "data_atualizacao": "2025-11-12T16:16:37.435Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 212,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964195/photoskeka/foto_212.jpg",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:32:41.640Z",
+    "data_atualizacao": "2025-11-12T16:16:36.439Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 213,
+  "fields": {
+    "titulo": "Imagem de Paris",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "media/video_1.mp4",
+    "cidade": 11,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:33:04.968Z",
+    "data_atualizacao": "2025-10-22T02:33:04.968Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 214,
+  "fields": {
+    "titulo": "Imagem de Pompeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964194/photoskeka/foto_214.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:34:15.368Z",
+    "data_atualizacao": "2025-11-12T16:16:34.493Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 215,
+  "fields": {
+    "titulo": "Imagem de Pompeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964192/photoskeka/foto_215.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:34:34.167Z",
+    "data_atualizacao": "2025-11-12T16:16:33.567Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 216,
+  "fields": {
+    "titulo": "Imagem de Pompeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964191/photoskeka/foto_216.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:34:53.341Z",
+    "data_atualizacao": "2025-11-12T16:16:32.356Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 217,
+  "fields": {
+    "titulo": "Imagem de Pompeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964190/photoskeka/foto_217.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:35:10.077Z",
+    "data_atualizacao": "2025-11-12T16:16:31.410Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 218,
+  "fields": {
+    "titulo": "Imagem de Pompeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964189/photoskeka/foto_218.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:35:26.782Z",
+    "data_atualizacao": "2025-11-12T16:16:30.526Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 219,
+  "fields": {
+    "titulo": "Imagem de Pompeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964188/photoskeka/foto_219.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:35:42.857Z",
+    "data_atualizacao": "2025-11-12T16:16:29.558Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 220,
+  "fields": {
+    "titulo": "Imagem de Pomeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964187/photoskeka/foto_220.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:36:23.844Z",
+    "data_atualizacao": "2025-11-12T16:16:28.526Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 221,
+  "fields": {
+    "titulo": "Imagem de Pompeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964186/photoskeka/foto_221.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:37:00.358Z",
+    "data_atualizacao": "2025-11-12T16:16:27.230Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 222,
+  "fields": {
+    "titulo": "Imagem de Pomeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964185/photoskeka/foto_222.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:37:22.857Z",
+    "data_atualizacao": "2025-11-12T16:16:25.945Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 223,
+  "fields": {
+    "titulo": "Imagem de Pomeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964184/photoskeka/foto_223.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:37:45.888Z",
+    "data_atualizacao": "2025-11-12T16:16:24.809Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 224,
+  "fields": {
+    "titulo": "Imagem de Pomeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964183/photoskeka/foto_224.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:38:20.873Z",
+    "data_atualizacao": "2025-11-12T16:16:23.854Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 225,
+  "fields": {
+    "titulo": "Imagem de Pompeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964181/photoskeka/foto_225.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:38:48.684Z",
+    "data_atualizacao": "2025-11-12T16:16:22.285Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 226,
+  "fields": {
+    "titulo": "Imagem de Pomeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964179/photoskeka/foto_226.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:39:04.745Z",
+    "data_atualizacao": "2025-11-12T16:16:20.342Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 227,
+  "fields": {
+    "titulo": "Imagem de Pompeia",
+    "descricao": "11 de setembro de 2025",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964178/photoskeka/foto_227.jpg",
+    "cidade": 12,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:39:24.806Z",
+    "data_atualizacao": "2025-11-12T16:16:19.137Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 228,
+  "fields": {
+    "titulo": "Imagem de Roma",
+    "descricao": "20 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964176/photoskeka/foto_228.jpg",
+    "cidade": 13,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:40:25.190Z",
+    "data_atualizacao": "2025-11-12T16:16:17.758Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 229,
+  "fields": {
+    "titulo": "Imagem de Roma",
+    "descricao": "20 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964175/photoskeka/foto_229.jpg",
+    "cidade": 13,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:40:45.822Z",
+    "data_atualizacao": "2025-11-12T16:16:16.099Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 230,
+  "fields": {
+    "titulo": "Imagem de Roma",
+    "descricao": "20 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964173/photoskeka/foto_230.jpg",
+    "cidade": 13,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:41:00.837Z",
+    "data_atualizacao": "2025-11-12T16:16:14.721Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 231,
+  "fields": {
+    "titulo": "Imagem de Roma",
+    "descricao": "20 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964172/photoskeka/foto_231.jpg",
+    "cidade": 13,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:41:16.041Z",
+    "data_atualizacao": "2025-11-12T16:16:13.465Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 232,
+  "fields": {
+    "titulo": "Imagem de Roma",
+    "descricao": "20 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964171/photoskeka/foto_232.jpg",
+    "cidade": 13,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:41:34.811Z",
+    "data_atualizacao": "2025-11-12T16:16:12.301Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 233,
+  "fields": {
+    "titulo": "Imagem de Roma",
+    "descricao": "20 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964170/photoskeka/foto_233.jpg",
+    "cidade": 13,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:41:49.103Z",
+    "data_atualizacao": "2025-11-12T16:16:11.333Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 234,
+  "fields": {
+    "titulo": "Imagem de Roma",
+    "descricao": "20 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964169/photoskeka/foto_234.jpg",
+    "cidade": 13,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:42:42.007Z",
+    "data_atualizacao": "2025-11-12T16:16:10.322Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 235,
+  "fields": {
+    "titulo": "Imagem de Roma",
+    "descricao": "20 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964168/photoskeka/foto_235.jpg",
+    "cidade": 13,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:43:03.031Z",
+    "data_atualizacao": "2025-11-12T16:16:09.159Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 236,
+  "fields": {
+    "titulo": "Imagem de Roma",
+    "descricao": "20 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964167/photoskeka/foto_236.jpg",
+    "cidade": 13,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:43:23.398Z",
+    "data_atualizacao": "2025-11-12T16:16:07.866Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 237,
+  "fields": {
+    "titulo": "Imagem de Roma",
+    "descricao": "20 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964166/photoskeka/foto_237.jpg",
+    "cidade": 13,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:43:38.803Z",
+    "data_atualizacao": "2025-11-12T16:16:06.796Z"
+  }
+},
+{
+  "model": "core.fotografia",
+  "pk": 238,
+  "fields": {
+    "titulo": "Imagem de Roma",
+    "descricao": "20 de junho de 2022",
+    "arquivo": "https://res.cloudinary.com/dzaxuqtse/image/upload/v1762964164/photoskeka/foto_238.jpg",
+    "cidade": 13,
+    "ativa": true,
+    "data_upload": "2025-10-22T02:43:56.931Z",
+    "data_atualizacao": "2025-11-12T16:16:05.480Z"
+  }
+}
+]
