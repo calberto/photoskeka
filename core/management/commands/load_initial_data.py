@@ -7,9 +7,8 @@ class Command(BaseCommand):
     help = 'Carrega dados iniciais apenas se o banco estiver vazio'
 
     def handle(self, *args, **options):
-        fixture_file = 'dados.json'
+        fixture_file = 'fotografias_cloudinary.json'
         
-        # Verifica se o arquivo existe
         if not os.path.exists(fixture_file):
             self.stdout.write(self.style.WARNING(f'Arquivo {fixture_file} não encontrado. Pulando...'))
             return
@@ -18,18 +17,26 @@ class Command(BaseCommand):
             # Verifica se já existem fotografias no banco
             Fotografia = apps.get_model('core', 'Fotografia')
             
-            if Fotografia.objects.exists():
-                total = Fotografia.objects.count()
-                self.stdout.write(
-                    self.style.WARNING(f'⚠ Banco já possui {total} fotografias. Pulando importação...')
-                )
-                return
+            total_atual = Fotografia.objects.count()
             
-            # Se chegou aqui, o banco está vazio - pode carregar
+            if total_atual > 0:
+                self.stdout.write(
+                    self.style.WARNING(f'⚠ Banco já possui {total_atual} fotografias.')
+                )
+                resposta = input('Deseja recarregar os dados? (s/N): ')
+                
+                if resposta.lower() != 's':
+                    self.stdout.write(self.style.WARNING('Operação cancelada.'))
+                    return
+                
+                # Limpa dados existentes
+                self.stdout.write(self.style.WARNING('Removendo dados antigos...'))
+                Fotografia.objects.all().delete()
+            
+            # Carrega os dados
             self.stdout.write(self.style.SUCCESS(f'→ Carregando dados de {fixture_file}...'))
             call_command('loaddata', fixture_file, verbosity=2)
             
-            # Confirma quantas foram carregadas
             total_carregado = Fotografia.objects.count()
             self.stdout.write(
                 self.style.SUCCESS(f'✓ {total_carregado} fotografias carregadas com sucesso!')
